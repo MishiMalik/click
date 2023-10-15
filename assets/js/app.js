@@ -80,6 +80,9 @@ $(".video-btn-pause").on("click", function () {
     margin: 0,
     responsiveClass: true,
     nav: false,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
     responsive: {
       0: {
         items: 1,
